@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxFSPagerView'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of RxFSPagerView.'
   s.homepage         = 'https://github.com/behrad-kzm/RxFSPagerView/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
