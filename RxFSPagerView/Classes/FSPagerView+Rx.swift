@@ -16,7 +16,7 @@ public extension Reactive where Base: FSPagerView {
         cellIdentifier: String,
         cellType: Cell.Type = Cell.self
     ) -> (_ source: O) -> (_ configureCell: @escaping ConfigureCell<S, Cell>) -> Disposable
-    where O.Element == S {
+    where O.E == S {
         base.collectionView.dataSource = nil
         return { source in
             let source = source.map { sequence -> S in
